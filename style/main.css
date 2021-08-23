@@ -74,7 +74,6 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 60%;
     flex-grow: 2;
 
     font-family: "Segoe UI", sans-serif;
@@ -112,7 +111,7 @@ header {
 }
 
 .hFind {
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
     /* Main */
