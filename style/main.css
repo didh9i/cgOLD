@@ -1,0 +1,124 @@
+
+    /* Global Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Header */
+
+body {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background: var(--background);
+}
+
+.divideVertical {
+    width: 1px;
+    height: 100%;
+
+    border-left: var(--border);
+}
+
+.divideHorizontal {
+    width: 100%;
+    height: 1px;
+
+    border-top: var(--border);
+}
+
+header {
+    width: 100%;
+    height: 105px;
+
+    border: var(--border);
+
+    display: flex;
+}
+
+.hLogo {
+    width: 103px;
+    height: 103px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hContain {
+    height: 103px;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hButtons,
+.hAreas {
+    height: 51px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hPath {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 24px;
+    color: var(--color);
+}
+
+.aCodeGlossary {
+    font-weight: bold;
+}
+
+.hPath > a {
+    margin: 0 7px;
+}
+
+.fileType {
+    margin-left: 7px;
+    height: 32px;
+    width: 32px;
+}
+
+    /* Main */
+
+main {
+    width: 100%;
+
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mSideRight {
+    width: 23px;
+    height: 100%;
+
+    border: var(--sideBorder);
+}
+
+.mSideLeft {
+    width: 23px;
+    height: 100%;
+
+    border: var(--sideBorder);
+}
+
+.mPage {
+    background: #313335;
+    border: 1px solid #323232;
+    width: calc(100% - 46px);
+    max-width: 1500px;
+}
