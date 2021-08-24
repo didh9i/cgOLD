@@ -2,18 +2,23 @@
 //  Logo
 //
 
-console.log("Hello World");
+const logo = document.querySelector(".hLogo");
+const logoImg = document.querySelector(".hLogoImg")
+const logoImg1 = document.querySelector(".hLogoImg1");
 
-const logo	= document.querySelector(".hLogo");
+setTimeout( () => {
+    logo.addEventListener("click", moveMainPage);
+    console.log("Done");
+}, 1000);
 
-console.log(logo);
-
-logo.addEventListener("mouseenter", function( event ) {
-    // highlight the mouseenter target
-    event.target.style.color = "purple";
-
-    // reset the color after a short delay
-    setTimeout(function() {
-        event.target.style.color = "";
-    }, 500);
-}, false);
+function moveMainPage () {
+    logo.style.position = "absolute";
+    logo.style.width = "100vw";
+    logo.style.height = "100vh";
+    logoImg.style.opacity = "0";
+    logoImg1.style.opacity = "1";
+    logoImg1.style.height = "210px";
+    logoImg1.style.clipPath = "polygon(0 0, 100% 0, 100% 100%, 0 100%)";
+    logoImg1.style.transform = "translateX(0px)";
+    setTimeout(() => {window.location.href = "./main.html"},  250);
+}

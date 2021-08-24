@@ -24,12 +24,27 @@
     border: var(--border);
 
     animation-name: intro;
-    animation-duration: 2s;
+    animation-duration: 1s;
+    transition: all 0.25s ease;
 }
 
 .hLogoImg {
     animation-name: introImg0;
-    animation-duration: 2s;
+    animation-duration: 1s;
+    pointer-events: none;
+    transition: all 0s ease;
+}
+
+.hLogoImg1 {
+    position: fixed;
+    height: 105px;
+    transform: translateX(300px);
+    animation-name: introImg1;
+    clip-path: polygon(0 0, 14% 0, 14% 100%, 0 100%);
+    animation-duration: 1s;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease;
 }
 
 @keyframes introImg0 {
@@ -45,16 +60,6 @@
         height: 66px;
         opacity: 1;
     }
-}
-
-.hLogoImg1 {
-    position: fixed;
-    height: 105px;
-    transform: translateX(300px);
-    animation-name: introImg1;
-    clip-path: polygon(0 0, 14% 0, 14% 100%, 0 100%);
-    animation-duration: 2s;
-    opacity: 0;
 }
 
 @keyframes introImg1 {

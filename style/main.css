@@ -114,6 +114,10 @@ header {
     flex-grow: 1;
 }
 
+.hFindText {
+    font-size: 24px;
+}
+
     /* Main */
 
 main {
