@@ -1,0 +1,31 @@
+{
+  "name": "CodeGlossary",
+  "link": "",
+  "img": "cgLogo2.svg",
+  "branches": [
+    {
+      "name": "Coding",
+      "link": "",
+      "img": "none",
+      "branches": []
+    },
+    {
+      "name": "",
+      "link": "",
+      "img": "",
+      "branches": []
+    },
+    {
+      "name": "",
+      "link": "",
+      "img": "",
+      "branches": []
+    },
+    {
+      "name": "",
+      "link": "",
+      "img": "",
+      "branches": []
+    }
+  ]
+}
