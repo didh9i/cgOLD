@@ -20,5 +20,5 @@ function moveMainPage () {
     logoImg1.style.height = "210px";
     logoImg1.style.clipPath = "polygon(0 0, 100% 0, 100% 100%, 0 100%)";
     logoImg1.style.transform = "translateX(0px)";
-    setTimeout(() => {window.location.href = "./main.html"},  250);
+    setTimeout(() => {window.location.href = "./index.html"},  250);
 }

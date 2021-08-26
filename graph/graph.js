@@ -26,7 +26,7 @@ function generateGraph(graph) {
     if (!graph.branches)
         graph.branches = [];
     if (!graph.link)
-        graph.link = "./main.html";
+        graph.link = "./index.html";
                                         // Создаем Контейнер и Картинку внутри него
     const newNode = document.createElement("button");
     const newNodeImg = document.createElement("img");
