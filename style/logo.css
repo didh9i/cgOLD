@@ -115,3 +115,23 @@
         border: var(--border);
     }
 }
+
+/* Disable animations!!! */
+@media (max-width: 100000px) {
+
+.hLogo {
+    animation-duration: 1s;
+    transition: all 0.25s ease;
+}
+
+.hLogoImg {
+    animation-duration: 1s;
+    transition: all 0.25s ease;
+}
+
+.hLogoImg1 {
+    animation-duration: 1s;
+    transition: all 0.25s ease;
+}
+
+}

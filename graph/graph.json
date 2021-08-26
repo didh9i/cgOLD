@@ -1,29 +1,29 @@
 {
   "name": "CodeGlossary",
   "link": "",
-  "img": "cgLogo2.svg",
+  "img": "assets/cgLogo2.svg",
   "branches": [
     {
       "name": "Coding",
-      "link": "",
+      "link": null,
       "img": "none",
       "branches": []
     },
     {
-      "name": "",
-      "link": "",
+      "name": "Web",
+      "link": null,
+      "img": "none",
+      "branches": []
+    },
+    {
+      "name": "Experimental",
+      "link": null,
       "img": "",
       "branches": []
     },
     {
-      "name": "",
-      "link": "",
-      "img": "",
-      "branches": []
-    },
-    {
-      "name": "",
-      "link": "",
+      "name": "Other",
+      "link": null,
       "img": "",
       "branches": []
     }
