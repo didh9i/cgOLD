@@ -1,23 +1,23 @@
 {
   "name": "CodeGlossary",
-  "link": "",
-  "img": "assets/cgLogo2.svg",
+  "link": "index.html",
+  "icon": "assets/cgLogo2.svg",
   "branches": [
     {
       "name": "Coding",
       "link": null,
-      "img": "icoCode",
+      "icon": "assets/icoCode.svg",
       "branches": [
         {
           "name": "Coding",
           "link": null,
-          "img": "icoCode",
+          "icon": "icoCode",
           "branches": []
         },
         {
           "name": "Coding",
           "link": null,
-          "img": "icoCode",
+          "icon": "icoCode",
           "branches": []
         }
       ]
@@ -25,18 +25,18 @@
     {
       "name": "Coding",
       "link": null,
-      "img": "icoCode",
+      "icon": "icoCode",
       "branches": [
         {
           "name": "Coding",
           "link": null,
-          "img": "icoCode",
+          "icon": "icoCode",
           "branches": []
         },
         {
           "name": "Coding",
           "link": null,
-          "img": "icoCode",
+          "icon": "icoCode",
           "branches": []
         }
       ]
@@ -44,25 +44,25 @@
     {
       "name": "Experimental",
       "link": null,
-      "img": "",
+      "icon": "",
       "branches": []
     },
     {
       "name": "Other",
       "link": null,
-      "img": "",
+      "icon": "",
       "branches": []
     },
     {
       "name": "Other",
       "link": null,
-      "img": "",
+      "icon": "",
       "branches": []
     },
     {
       "name": "Other",
       "link": null,
-      "img": "",
+      "icon": "",
       "branches": []
     }
   ]

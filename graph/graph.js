@@ -57,7 +57,11 @@ function generateGraph(graph) {
     newNode.constTransitionX = newNode.transitionX;
     newNode.constTransitionY = newNode.transitionY;
     newNode.style.border = "#434445 solid 2px";
-    newNodeImg.src = graph.img;         // Передаем расположение иконки
+    newNodeImg.src = graph.icon;         // Передаем расположение иконки
+    newNodeImg.onerror = () => {
+        this.onerror = null;
+        this.src = 'assets/imgNotFound.svg';
+    }
     newNode.appendChild(newNodeImg);    // Вписываем картиркинку в контейнер
     newNode.id = "mainNode";            // Id
 
@@ -99,7 +103,8 @@ function generateBranches(branch, father, angle = Math.PI * 2, startAngle = 0) {
         newNode.constTransitionY = newNode.transitionY;
 
         newNode.addEventListener("mousedown", () => {window.location.href = branch.link});
-        newNodeImg.src = "assets/icoCode.svg";  //Передаем расположение иконки
+        newNodeImg.onerror = () => {newNodeImg.src = "assets/imgNotFound.svg"};
+        newNodeImg.src = branch.branches[i].icon;  // Передаем расположение иконки
         newNode.appendChild(newNodeImg);        // Вписываем картиркинку в контейнер
         newNode.id = "node";                    // Id
         newNode.style.transform = "translate(" + x + "px," + y + "px)";
