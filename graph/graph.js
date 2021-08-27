@@ -103,7 +103,7 @@ function generateBranches(branch, father, angle = Math.PI * 2, startAngle = 0) {
         newNode.constTransitionY = newNode.transitionY;
 
         newNode.addEventListener("mousedown", () => {window.location.href = branch.link});
-        newNodeImg.onerror = () => {newNodeImg.src = "assets/imgNotFound.svg"};
+        newNodeImg.onerror = () => {newNodeImg.onerror = null; newNodeImg.src = "assets/imgNotFound.svg";};
         newNodeImg.src = branch.branches[i].icon;  // Передаем расположение иконки
         newNode.appendChild(newNodeImg);        // Вписываем картиркинку в контейнер
         newNode.id = "node";                    // Id
