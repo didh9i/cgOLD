@@ -17,7 +17,7 @@ newCanvas.style.pointerEvents = "none";
 newCanvas.style.border = "darkred solid 16px";
 
 const ctx = newCanvas.getContext('2d');
-const ctxCenter = 1024;
+const ctxCenter = 1024 + 48;
 
 function readTextFile(file, callback) {
     let rawFile = new XMLHttpRequest();
@@ -51,8 +51,8 @@ function generateGraph(graph) {
     newNodeBack.style.height = "100%";
     newNodeBack.style.background = "#2B2B2B";
     newNodeBack.style.zIndex = "-1";
-    newNode.transitionX = 0;
-    newNode.transitionY = 0;
+    newNode.transitionX = -48;
+    newNode.transitionY = -48;
     newNode.addEventListener("mousedown", () => {window.location.href = graph.link});
     newNode.constTransitionX = newNode.transitionX;
     newNode.constTransitionY = newNode.transitionY;
@@ -90,7 +90,7 @@ function generateBranches(branch, father, angle = Math.PI * 2, startAngle = 0) {
 
         ctx.moveTo(ctxCenter + father.transitionX, ctxCenter + father.transitionY);
         ctx.lineTo(ctxCenter + x, ctxCenter + y);
-        ctx.lineWidth = 3;
+        ctx.lineWidth = 4;
         ctx.strokeStyle = '#ffffff';
         ctx.stroke();
         newNode.transitionX = x;
