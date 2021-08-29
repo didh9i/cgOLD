@@ -1,46 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 105 105" style="enable-background:new 0 0 105 105;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:url(#SVGID_2_);}
-	.st2{fill:url(#SVGID_3_);}
-	.st3{fill:url(#SVGID_4_);}
-	.st4{fill:#FFFFFF;}
-	.st5{fill:none;}
-</style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="39.01" y1="78.3736" x2="89.0299" y2="78.3736" gradientTransform="matrix(1 0 0 -1 0 106)">
-	<stop  offset="9.558660e-02" style="stop-color:#ECCB45"/>
-	<stop  offset="0.9" style="stop-color:#E32581"/>
-</linearGradient>
-<path class="st0" d="M39,42l1.6-28.8l41.9,9.3L39,42z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="26.1826" y1="52.4602" x2="17.4742" y2="110.8908" gradientTransform="matrix(1 0 0 -1 0 106)">
-	<stop  offset="9.553076e-02" style="stop-color:#9D25AE"/>
-	<stop  offset="0.9168" style="stop-color:#CA5C59"/>
-</linearGradient>
-<path class="st1" d="M39,42l1.6-28.8L14.1,26.7L7.5,65L39,42z"/>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="83.7088" y1="82.572" x2="3.6567" y2="-1.9726" gradientTransform="matrix(1 0 0 -1 0 106)">
-	<stop  offset="9.558660e-02" style="stop-color:#ECCB45"/>
-	<stop  offset="0.9" style="stop-color:#E32581"/>
-</linearGradient>
-<path class="st2" d="M92.3,53l8.1-8.2L82.5,22.5L39,42L7.5,65l28.2,32.7l46.9-38.2L92.3,53z"/>
-<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="60.7942" y1="35.1434" x2="87.2401" y2="31.3802" gradientTransform="matrix(1 0 0 -1 0 106)">
-	<stop  offset="9.553076e-02" style="stop-color:#9D25AE"/>
-	<stop  offset="0.9168" style="stop-color:#CA5C59"/>
-</linearGradient>
-<path class="st3" d="M82.5,59.5v23H54.3l-10.2,8.3l38.4-8.3L92.3,53L82.5,59.5z"/>
-<path d="M22.5,22.5h60v60h-60V22.5z"/>
-<g>
-	<path class="st4" d="M30,71.2h22.5v3.8H30V71.2z"/>
-	<path class="st4" d="M52.5,29.9"/>
-	<path class="st4" d="M28.4,41.4L28.4,41.4c-0.1-6.4,5-11.7,11.3-11.8c0.2,0,0.3,0,0.5,0c3.3-0.2,6.6,1.1,8.9,3.5L46,36.7
-		c-1.5-1.6-3.6-2.5-5.8-2.6c-3.8,0-6.6,3.2-6.6,7.1v0.1c0,3.9,2.7,7.1,6.6,7.1c2.6,0,4.2-1,6-2.7l3.1,3.2c-2.3,2.7-5.8,4.2-9.3,4
-		c-6.3,0.1-11.5-5-11.6-11.3C28.4,41.6,28.4,41.5,28.4,41.4"/>
-</g>
-<path class="st4" d="M51.4,41.4L51.4,41.4c-0.1-6.4,5-11.7,11.3-11.8c0.2,0,0.3,0,0.5,0c3.3-0.2,6.6,1.1,8.9,3.5L69,36.7
-	c-1.5-1.6-3.6-2.5-5.8-2.6c-3.8,0-6.6,3.2-6.6,7.1v0.1c0,3.9,2.7,7.1,6.6,7.1c2.6,0,4.2-1,6-2.7l3.5,3.1c-2.3,2.7-6.1,4.3-9.6,4.2
-	c-6.3,0.1-11.5-5-11.6-11.3C51.4,41.6,51.4,41.5,51.4,41.4"/>
-<polyline class="st4" points="68,46.8 67.9,43.9 63.1,43.9 63.1,39.9 72.6,40 72.6,48.8 "/>
-<rect class="st5" width="105" height="105"/>
+<svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M31.2 33.6001L32.48 10.5601L66 18.0001L31.2 33.6001Z" fill="url(#paint0_linear)"/>
+	<path d="M31.2 33.6001L32.48 10.5601L11.28 21.3601L6 52.0001L31.2 33.6001Z" fill="url(#paint1_linear)"/>
+	<path d="M73.84 42.4L80 35L66 18L31.2 33.6L6 52L28.56 78.16L66.08 47.6L73.84 42.4Z" fill="url(#paint2_linear)"/>
+	<path d="M65.9998 47.5999V65.9999H43.4398L35.2798 72.6399L65.9998 65.9999L73.8398 42.3999L65.9998 47.5999Z" fill="url(#paint3_linear)"/>
+	<path d="M18 18H66V66H18V18Z" fill="black"/>
+	<path d="M24 57H42V60H24V57Z" fill="white"/>
+	<path d="M24.0011 33.1166C23.924 28.1804 27.8575 24.0926 32.7166 24.0155C32.8708 24.0155 32.9479 24.0155 33.1022 24.0155C35.6474 23.8613 38.1926 24.8639 39.9666 26.715L37.5756 29.4916C36.4187 28.2576 34.799 27.5634 33.1022 27.4863C30.1713 27.4863 28.0118 29.9544 28.0118 32.9624V33.0395C28.0118 36.0475 30.0942 38.5156 33.1022 38.5156C35.1075 38.5156 36.3416 37.7443 37.7299 36.4331L40.1208 38.9012C38.3469 40.9836 35.6474 42.1406 32.9479 41.9863C28.0889 42.0634 24.0782 38.1299 24.0011 33.2709C24.0011 33.2709 24.0011 33.1937 24.0011 33.1166Z" fill="white"/>
+	<path d="M42.0011 33.1166C41.924 28.1804 45.8575 24.0926 50.7166 24.0155C50.8708 24.0155 50.9479 24.0155 51.1022 24.0155C53.6474 23.8613 56.1926 24.8639 57.9666 26.715L55.5756 29.4916C54.4187 28.2576 52.799 27.5634 51.1022 27.4863C48.1713 27.4863 46.0118 29.9544 46.0118 32.9624V33.0395C46.0118 36.0475 48.0942 38.5156 51.1022 38.5156C53.1075 38.5156 54.3416 37.7443 55.7299 36.4331L58.1208 38.9012C56.3469 40.9836 53.6474 42.1406 50.9479 41.9863C46.0889 42.0634 42.0782 38.1299 42.0011 33.2709C42.0011 33.2709 42.0011 33.1937 42.0011 33.1166Z" fill="white"/>
+	<rect x="51" y="31.2598" width="7.11" height="3.48" fill="white"/>
+	<rect x="54.5098" y="33" width="3.6" height="5.88" fill="white"/>
+	<defs>
+		<linearGradient id="paint0_linear" x1="31.208" y1="22.1012" x2="71.2239" y2="22.1012" gradientUnits="userSpaceOnUse">
+			<stop offset="0.0955866" stop-color="#ECCB45"/>
+			<stop offset="0.9" stop-color="#E32581"/>
+		</linearGradient>
+		<linearGradient id="paint1_linear" x1="20.9461" y1="42.8319" x2="13.9794" y2="-3.91258" gradientUnits="userSpaceOnUse">
+			<stop offset="0.0955308" stop-color="#9D25AE"/>
+			<stop offset="0.9168" stop-color="#CA5C59"/>
+		</linearGradient>
+		<linearGradient id="paint2_linear" x1="66.967" y1="18.7424" x2="2.92534" y2="86.3781" gradientUnits="userSpaceOnUse">
+			<stop offset="0.0955866" stop-color="#ECCB45"/>
+			<stop offset="0.9" stop-color="#E32581"/>
+		</linearGradient>
+		<linearGradient id="paint3_linear" x1="48.6351" y1="56.6852" x2="69.7919" y2="59.6957" gradientUnits="userSpaceOnUse">
+			<stop offset="0.0955308" stop-color="#9D25AE"/>
+			<stop offset="0.9168" stop-color="#CA5C59"/>
+		</linearGradient>
+	</defs>
 </svg>
