@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cBackground: #3C3F41;
+    --cBorder: #323232;
+    --cMain: #313335;
+    --cLine: #555555;
+}
+
+body {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    background: var(--cBackground);
+    border: var(--cBorder) solid 1px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.vDivider {
+    width: 1px;
+    height: 100%;
+    background: var(--cBorder);
+}
+
+.hDivider {
+    width: 100%;
+    height: 1px;
+    background: var(--cBorder);
+}
