@@ -1,0 +1,172 @@
+//  Colors:
+$cBackground: #3C3F41
+$cButtonHover: #424A4D
+$cButtonActive: #4E5254
+$cButtonActiveBorder: #3D6185 solid 4px
+$cBorder: #323232
+$cMain: #313335
+$cLine: #555555
+$cFontBright: #FEFEFE
+$cFont: #BBBBBB
+$cPage: #2B2B2B
+//  Fonts:
+$fSegoe: "Segoe UI", sans-serif
+//  Size:
+$sFont: 20px
+
+@mixin flexContainer($direction: auto, $justify: auto, $align: auto)
+  display: flex
+  flex-direction: $direction
+  justify-content: $justify
+  align-items: $align
+
+@mixin flexCenter
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin border($color: $cBorder, $type: solid, $size: 1px)
+  border: $color $type $size
+
+*
+  padding: 0
+  margin: 0
+
+body
+  @include flexContainer(column)
+  width: 100vw
+  height: 100vh
+  background: $cBackground
+  @include border
+  overflow: hidden
+
+.vDivider
+  width: 1px
+  height: 100%
+  min-width: 1px
+  min-height: 100%
+  background: $cBorder
+
+.hDivider
+  width: 100%
+  height: 1px
+  min-width: 100%
+  min-height: 1px
+  background: $cBorder
+
+.bDivider
+  width: 1px
+  height: 75%
+  min-width: 1px
+  min-height: 75%
+  background: $cBorder
+
+#header
+  @include flexContainer
+  width: 100%
+  height: 97px
+
+#hLogo
+  @include flexCenter
+  width: 97px
+  height: 97px
+
+#hContent
+  @include flexContainer(column)
+  flex-grow: 1
+
+#hBottom, #hTop
+  @include flexContainer(row, space-between)
+
+.hButtonDiv
+  @include flexContainer(row, flex-start, center)
+
+.hButton
+  @include flexCenter
+  border-radius: 8px
+
+  width: 48px
+  height: 48px
+
+  box-sizing: border-box
+  background: $cBackground
+  border: none
+  outline: none
+  &:hover
+    background: $cButtonHover
+  &:focus
+    border: $cButtonActiveBorder
+  &:active
+    background: $cButtonActive
+
+#hNavbar
+  @include flexContainer(row, flex-start, center)
+  overflow: hidden
+  margin-left: 6px
+
+  flex-grow: 3
+  height: 100%
+
+  font-family: $fSegoe
+  font-size: $sFont
+  color: $cFont
+  & > div
+    @include flexCenter
+    height: 28px
+    & > *
+      margin-left: 4px
+
+#hNavbarCG
+  font-weight: bold
+  color: white
+
+#hSearchbar
+  @include flexContainer(row, auto, center)
+  flex-grow: 2
+  height: 100%
+
+#inputSearch
+  background: $cBackground
+  flex-grow: 1
+  height: 48px
+  border: none
+  outline: none
+  box-sizing: border-box
+  color: $cFont
+  font-size: $sFont
+  padding-left: 8px
+  &:hover
+    background: $cButtonHover
+  &:focus
+    //border: $cButtonActiveBorder
+    background: $cButtonActive
+    color: $cFontBright
+  &:active
+    background: $cButtonActive
+
+#buttonHide
+  transition-duration: 0.5s
+  img
+    transition-duration: 0.5s
+
+#header
+  transition-duration: 0.5s
+
+main
+  @include flexContainer(row, space-between, flex-start)
+  width: 100%
+  flex-grow: 1
+
+main > .empty
+  flex-grow: 1
+
+#mSideLeft, #mSideRight
+  width: 24px
+  height: 100%
+
+#page
+  width: 100%
+  max-width: calc(100vw - 97px - 97px)
+  height: 100%
+  background: $cPage
+

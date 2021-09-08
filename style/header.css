@@ -1,172 +1,198 @@
 * {
-    padding: 0;
-    margin: 0;
-}
-
-:root {
-    --cBackground: #3C3F41;
-    --cButtonHover: #4C5052;
-    --cButtonActive: #4E5254;
-    --cButtonActiveBorder: #3D6185 solid 4px;
-    --cBorder: #323232;
-    --cMain: #313335;
-    --cLine: #555555;
-    --cFontBright: #FEFEFE;
-    --cFont: #BBBBBB;
-    --fSegoe: "Segoe UI", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-
-    width: 100vw;
-    height: 100vh;
-
-    background: var(--cBackground);
-    border: var(--cBorder) solid 1px;
-
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: auto;
+  align-items: auto;
+  width: 100vw;
+  height: 100vh;
+  background: #3C3F41;
+  border: #323232 solid 1px;
+  overflow: hidden;
 }
 
 .vDivider {
-    width: 1px;
-    height: 100%;
-    min-width: 1px;
-    min-height: 100%;
-
-    background: var(--cBorder);
+  width: 1px;
+  height: 100%;
+  min-width: 1px;
+  min-height: 100%;
+  background: #323232;
 }
 
 .hDivider {
-    width: 100%;
-    height: 1px;
-    min-width: 100%;
-    min-height: 1px;
-
-    background: var(--cBorder);
+  width: 100%;
+  height: 1px;
+  min-width: 100%;
+  min-height: 1px;
+  background: #323232;
 }
 
 .bDivider {
-    width: 1px;
-    height: 75%;
-    min-width: 1px;
-    min-height: 75%;
-
-    background: var(--cBorder);
+  width: 1px;
+  height: 75%;
+  min-width: 1px;
+  min-height: 75%;
+  background: #323232;
 }
 
 #header {
-    display: flex;
-    flex-direction: row;
-
-    width: 100%;
-    height: 97px;
+  display: flex;
+  flex-direction: auto;
+  justify-content: auto;
+  align-items: auto;
+  width: 100%;
+  height: 97px;
 }
 
 #hLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 97px;
-    height: 97px;
-    min-width: 97px;
-    min-height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97px;
+  height: 97px;
 }
 
 #hContent {
-    display: flex;
-    flex-direction: column;
-
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: auto;
+  align-items: auto;
+  flex-grow: 1;
 }
 
-#hBottom,
-#hTop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#hBottom, #hTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: auto;
 }
 
 .hButtonDiv {
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .hButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-
-    width: 48px;
-    height: 48px;
-
-    background: var(--cBackground);
-    border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  background: #3C3F41;
+  border: none;
+  outline: none;
 }
-
 .hButton:hover {
-    background: var(--cButtonHover);
+  background: #424A4D;
 }
-
 .hButton:focus {
-    border: var(--cButtonActiveBorder);
+  border: #3D6185 solid 4px;
 }
-
 .hButton:active {
-    background: var(--cButtonActive);
+  background: #4E5254;
 }
 
 #hNavbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-
-    overflow: hidden;
-    margin-left: 6px;
-    
-    flex-grow: 3;
-    height: 100%;
-
-    font-family: var(--fSegoe);
-    font-size: 20px;
-    color: var(--cFont);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 6px;
+  flex-grow: 3;
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  color: #BBBBBB;
 }
-
 #hNavbar > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
 }
-
 #hNavbar > div > * {
-    margin-left: 4px
+  margin-left: 4px;
 }
 
 #hNavbarCG {
-
+  font-weight: bold;
+  color: white;
 }
 
 #hSearchbar {
-    display: flex;
-    flex-direction: row;
-
-    flex-grow: 2;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: center;
+  flex-grow: 2;
+  height: 100%;
 }
 
 #inputSearch {
-    background: var(--cBackground);
-    border: none;
+  background: #3C3F41;
+  flex-grow: 1;
+  height: 48px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: #BBBBBB;
+  font-size: 20px;
+  padding-left: 8px;
 }
-#mSideLeft {
+#inputSearch:hover {
+  background: #424A4D;
+}
+#inputSearch:focus {
+  background: #4E5254;
+  color: #FEFEFE;
+}
+#inputSearch:active {
+  background: #4E5254;
+}
 
+#buttonHide {
+  transition-duration: 0.5s;
 }
+#buttonHide img {
+  transition-duration: 0.5s;
+}
+
+#header {
+  transition-duration: 0.5s;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-grow: 1;
+}
+
+main > .empty {
+  flex-grow: 1;
+}
+
+#mSideLeft, #mSideRight {
+  width: 24px;
+  height: 100%;
+}
+
+#page {
+  width: 100%;
+  max-width: calc(100vw - 97px - 97px);
+  height: 100%;
+  background: #2B2B2B;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -23,29 +23,19 @@
         <section id="hContent">
             <div id="hTop">
                 <div id="hLinks" class="hButtonDiv">    <!-- Links -->
-                    <button class="hButton" title="Hello There"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="vDivider"></div>
+                    <a class="hButton" href="https://github.com/cclarice/CodeGlossary" title="Github page"><img src="assets/ico/github.svg" alt="Github"></a><div class="bDivider"></div>
+                    <a class="hButton" href="index.html" ></a><div class="bDivider"></div>
+                    <a class="hButton" href=""></a><div class="bDivider"></div>
+                    <a class="hButton" href=""></a><div class="bDivider"></div>
+                    <a class="hButton" href=""></a><div class="bDivider"></div>
+                    <a class="hButton" href=""></a><div class="bDivider"></div>
+                    <a class="hButton" href=""></a><div class="vDivider"></div>
                 </div>
                 <div id="hSettings" class="hButtonDiv"> <!-- Settings -->
                     <div class="vDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
+                    <button class="hButton"></button><div class="bDivider"></div>
+                    <button class="hButton"></button><div class="bDivider"></div>
+                    <button class="hButton"></button><div class="bDivider"></div>
                     <button class="hButton"></button>
                 </div>
             </div>
@@ -56,20 +46,18 @@
                 </div>
                 <div class="vDivider"></div>
                 <div id="hTools" class="hButtonDiv">    <!-- Tools -->
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
-                    <button class="hButton"></button>
-                    <div class="bDivider"></div>
+                    <button class="hButton"></button><div class="bDivider"></div>
+                    <button class="hButton"></button><div class="bDivider"></div>
                     <button class="hButton"></button>
                 </div>
                 <div class="vDivider"></div>
                 <div id="hSearchbar">                   <!-- SearchBar -->
-                    <button class="hButton"></button>
+                    <button class="hButton"><img src="assets/ico/searchHistory.svg" alt=""></button>
                     <div class="bDivider"></div>
                     <input id="inputSearch" type="text" aria-label="Search">
                 </div>
                 <div class="vDivider"></div>
-                <button id="buttonHide" class="hButton"></button>
+                <button id="buttonHide" class="hButton"><img src="assets/ico/hide.svg" alt="Hide"></button>
             </div>
         </section>
     </header>
@@ -79,10 +67,19 @@
 
     <main id="main">
         <aside id="mSideLeft"></aside>
+        <div class="vDivider"></div>
+        <div class="empty"></div>
         <section id="page"> <!-- Page -->
             <script></script>
         </section>          <!-- Page -->
+        <div class="empty"></div>
+        <div class="vDivider"></div>
         <aside id="mSideRight"></aside>
     </main>
 </body>
+<!-- Header script -->
+<script type="module" src="script/header.js"></script>
+<!----><script type="module" src="script/appHeader/hide.js"></script>
+<!----><script type="module" src="script/appHeader/links.js"></script>
+
 </html>
